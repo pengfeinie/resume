@@ -1,0 +1,210 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Nie Pengfei}
+%\position{Software Architect{\enskip\cdotp\enskip}Security Expert}\
+%\address{{\enskip\cdotp\enskip}Hangzhou,China}
+\basicInfo{
+  \mailaddress{pfnie@yahoo.com}\textperiodcentered\ 
+  \phone{(+86) 177-6453-XXXX} \textperiodcentered\ 
+  \location{Hangzhou, China} \textperiodcentered\ 
+%   \github{github.com/pengfeinie}
+%   \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+}
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Anhui Sanlian University}, Anhui, China}{Sep. 2010 -- Jun. 2014}
+\textit{Bachelor} in computer science and technology
+
+% 工作经历
+\section{\faUsers\ summary}
+\datedsubsection{Mobility Asia of volkswagen (China) LTD Hangzhou, China}{May. 2019 -- Present}
+\datedsubsection{Netease Hangzhou (China) LTD Hangzhou, China}{Oct. 2017 -- May. 2019}
+\datedsubsection{Citigroup Financial Information Services (China) LTD Shanghai, China}{Oct. 2015 -- Oct. 2017}
+\datedsubsection{UniSysTech Consulting (China) LTD Hefei, China}{Oct. 2013 -- Sep. 2015}
+
+% 工作经历
+\section{\faUsers\ Experience}
+% 大众汽车
+\datedsubsection{\textbf{Mobility Asia of volkswagen (China) LTD} Hangzhou, China}{May. 2019 -- Present}
+%V2X项目开始
+\datedsubsection{volkswagen v2x preprocessing}{Jan. 2022 -- Present}
+Introduction: Consumed for different area messages, send abstraction messages to downstream components.\\
+Technology: AOS,ROS,iceoryx,C++,CMake,conan etc.\\
+Responsiblity:
+\begin{itemize}
+  \item Responsible for integration in vehicles, application and customer release of V2X functions of E3 2.0 for the Volkswagen Group brands in the Chinese market.
+  \item Responsible for system, function quality and project quality.
+  \item Responsible for implementing and execution of SW development activities on all levels (components, functions, testing, release) and ensure the harmonization and cooperation.
+  \item Responsible for implementing functional and software specification & development requirements, vehicle software interfaces definition of related hardware and software.
+  \item Responsible for implementing multisource information fusion and resource estimation.
+\end{itemize}
+%V2X项目结束
+%Robotaxi Tiger开始
+\datedsubsection{volkswagen Robotaxi Tiger}{Jan. 2020 -- Dec. 2021}
+Introduction: Consumed for different area messages, send abstraction messages to downstream components.\\
+Technology: Spring Boot,Spring Cloud,Spring MVC,MyBatis,MySQL,Redis,Kafka,K8S,docker etc.\\
+Responsiblity:
+\begin{itemize}
+\item Start-up core member of robotaxi program analysis team , responsible for program analysis system research and development platment construction.
+\item Responsible for architecture design and business implementation.
+\item Responsible for design and implementation of trip service, dispatch service and management platform.
+\item Provided solutions for GEO data-related legality. 
+\item Responsible for scheduling algorithm optimization and handling vehicle control instructions.
+\end{itemize}
+%Robotaxi Tiger结束
+%CNS3SOP2 CMS开始
+\datedsubsection{volkswagen cns3sop2 content management system(CMS)}{Mar. 2019 -- Jan. 2020}
+Introduction: Consumed for different area messages, send abstraction messages to downstream components.\\
+Technology: Spring Boot,Spring Cloud,Spring MVC,MyBatis,MySQL,Redis,Kafka,K8S,docker etc.\\
+Responsiblity:
+\begin{itemize}
+\item Responsible for requirement splitting, modular task assignment, architecture design, interface definition.
+\item Provided encryption scheme of vehicle-based interface, JWT etc.
+\item Demand splitting, modular task assignment, interface definition, and service engineering construction.
+\item Develop core code, promote technology sharing, technology stack selection, upgrade and evaluation, and performance optimization.
+\item Responsible for cloud storage solutions(Huawei cloud OBS) and implementations.
+\item Responsible for logging design and tracing.
+\end{itemize}
+%CNS3SOP2 CMS结束
+
+% 网易
+\datedsubsection{\textbf{Netease Hangzhou (China) LTD} Hangzhou, China}{Oct. 2017 -- May. 2019}
+%kada项目开始
+\datedsubsection{Netease Kada}{Oct. 2017 -- May. 2019}
+Introduction: Kada is a programming education solution provider covering the K12 stage. https://www.kada.com\\
+Technology: Spring Boot,Spring Cloud,Spring MVC,MyBatis,Dubbo,Redis,MySQL,Eureka,Zookeeper etc.\\
+Responsiblity:
+\begin{itemize}
+  \item Demand splitting, modular task assignment, interface definition, and service engineering construction.
+  \item Develop core code, promote technology sharing, technology stack selection, upgrade and evaluation, and performance optimization.
+  \item Participate in the design and development of review systems, dynamic forms, certification systems, material tools, online lottery, work scoring, ranking
+List of other business modules.
+  \item Implement database read-write separation middleware, and push it to other business groups.
+  \item Develop service downgrade middleware based on open source Hystrix customized package for Dubbo calls.
+  \item Leading the splitting of business modules, rebuilding the project structure, and realizing service based on Spring Cloud and Dubbo.
+  \item Access to SCM and overmind of institute Netease Hangzhou to implement Maven standardization, environment isolation and service shuttle.
+  \item Effective executors and promoters of engineering and configuration specifications, assisting the project team in code inspection. Instruct interns to familiarize themselves with projects, develop business needs, and share and train from time to time.
+\end{itemize}
+%kada项目结束
+
+
+% 花旗银行
+\datedsubsection{\textbf{Citigroup Financial Information Services (China) LTD} Shanghai, China}{Oct. 2015 -- Oct. 2017}
+%资深开发工程师
+% \role{Senior Java Engineer}
+%DMC项目开始
+\datedsubsection{Citi Document Master Central(DMC)}{Dec. 2016 -- Oct. 2017}
+Introduction: Provide document storage, management, sharing and permission control for various departments.\\
+Technology: Spring MVC,TibcoJMS,MyBatis,Oracle,Jersey,MongoDB,Ativio,Redis etc.\\
+Responsiblity:
+\begin{itemize}
+  \item Participate in the development and improvement of the core function modules of the project: authority
+control, document uploading and downloading, metadata automatic Extraction and so on.
+  \item Participate in the performance test and performance tuning of front-end and back-end communication of
+the project, increasing the effective text transmission volume by 30\%.
+  \item Participate in the separation of front and back end of the core functions of the project, design and implement
+relevant Restful API.
+  \item Micro-service Design and Implementation of Metadata Automatic Extraction Function Module.
+  \item  Participate in auto-based automatic script development and maintenance of the project.
+  \item Permission system requirements analysis, design and development. Document redundancy and consistency checking mechanism algorithm. Design and development of background document management system.
+  \item Middleware Restful interface development and documentation.Redis cache operations such as permissions and document attributes. MongoDB of the second-party package for the preservation of historical data.
+  \item The Ativio search engine handles document searches. The TibcoJMS message notifies the business system of document attributes and permissions changes.
+\end{itemize}
+%DMC项目结束
+%初级开发工程师
+%\role{Junior Java Engineer}
+%CMC项目开始
+\datedline{Citi CRM Master Central(CMC)}{Jan. 2016 -- Dec. 2016}
+Introduction: Information storage, sharing, authority control and data analysis of CRM in various departments.\\
+Technology:Spring,Spring MVC,MyBatis,Oracle,Jersey,MongoDB,TibcoJMS etc.\\
+Responsiblity:
+\begin{itemize}
+\item Provide Restful interface and documentation.Establish permission control for access to CMC system. 
+\item TibcoJMS message notifies the change of public information and private information of the business system.
+\item Historical data recorded to MongoDB and data processing of unconventional schema structures.
+\item Statistics and analysis of CMC application data, tracking and acquisition of change logs.
+\end{itemize}
+%CMC项目结束
+%Rates项目开始
+\datedline{Citi Rates} {Oct. 2015 -- Jan. 2016}
+Introduction: About stock real-time analysis, securities investment transaction, G10 currency transaction.\\
+Technology:Spring,Struts2,Hibernate,Oracle,Scobby,liborate.\\
+Responsiblity:
+\begin{itemize}
+\item Responsible for general problem logs bug fixes.Code refactoring and daily optimization.
+\item The production environment performance problem is fixed.
+\end{itemize}
+%Rates项目结束
+
+% scotiabank银行
+\datedsubsection{\textbf{UniSysTech Consulting (China) LTD} Hefei, China}{Oct. 2013 -- Sep. 2015}
+%Registration项目开始
+\datedsubsection{Scotiabank Registration}{Jan. 2015 -- Sep. 2016}
+Introduction: Provide Scotiabank employee qualification evaluation platform, realize the connection with the national NRD database system, and realize the talent qualification evaluation and storage.\\
+Technology:Spring,Spring MVC,Mybatis,Activiti,MySQL,Spring Batch,Maven etc.\\
+Responsiblity:
+\begin{itemize}
+\item Online Application module development, combined with Activiti to implement workflow to complete qualification review and promotion.
+\item The EOD jobs module, combined with Spring Batch, executes batch jobs to complete batch operations of employee data.
+\item Realize the connection between External System and NRD database.
+\item Reports module, follow-up report of qualification review and review display.
+\end{itemize}
+%Registration项目结束
+%SPS(Scotiabank Protection System)项目开始
+\datedline{Scotiabank Protection System(SPS)}{Oct. 2013 -- Jan. 2015}
+Introduction: Scotiabank provides insurance product sales platform to third-party insurance companies.\\
+Technology:Spring,eJSF,eSOA,DB2 etc.\\
+Responsiblity:
+\begin{itemize}
+\item Responsible for domestic Scotiabank branches in the Global module.
+\item Responsible for insurance companies and products in the Country module.
+\item Responsible for dynamic forms in the Customer module.
+\item The settlement process of the Sale module and the development of the Post Sale after-sales service process.
+\end{itemize}
+%CMC项目结束
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Solid knowledge in some popular programming languages. Specially in Java,C\arraybackslash/C++ and Python.Learn about common Linux instructions, and can use the shell to write automated management tools.
+  \item Understand common development frameworks such as Spring, MyBatis, SpringMVC, SpringBoot, etc.
+  \item Solid knowledge inter-thread communication and multi-thread programming.
+  \item Have Redis, Kafka middleware development experience. Have experience in micro-service architecture design, and can independently carry out project development and maintenance management.
+  \item Strong C\arraybackslash/C++ programming and debugging skills and related build tools such CMake, shell,connan etc.
+  \item Solid knowledge of design and development in embed environments such Autosar,QNX or 
+  embedded Linux.
+  \item Solid knowledge of ROS,deep understanding sub/pub communication mechanism. Knowledge of ADAS\arraybackslash/ADAP.
+  \item Good business English skills(written and spoken),native Chinese language skills.
+\end{itemize}
+
+\section{\faHeartO\ Honors and Awards}
+\begin{itemize}[parsep=0.5ex]
+  \item Languages: English - Fluent(CET-4), Mandarin - Native speaker.
+\end{itemize}
+
+\section{\faUsers\ READ ME}
+\begin{itemize}[parsep=0.5ex]
+  \item Love life, love technology, pay attention to the accumulation of professional knowledge.
+  \item Creator who is willing to share, cheerful and has a good team atmosphere.
+  \item Positive work attitude, focused attention and responsibility.
+  \item Experienced software engineer who constantly seeks out innovative solutions to everyday problems.
+  \item Have honed my analytical thinking and collaboration skills, and love working teams.
+\end{itemize}
+
+\section{\faInfo\ Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item GitHub: https://github.com/pengfeinie
+  \item Home: https://pengfeinie.github.io/
+  \item Blog: https://blog.csdn.net/pfnie
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
